@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F62424A5243BE75100CC888F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F62424A4243BE75100CC888F /* main.m */; };
-		F62424B2243BE7C700CC888F /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = F62424B1243BE7C700CC888F /* Kitchen.m */; };
+		F62424BB243BF13400CC888F /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = F62424B9243BF13400CC888F /* Kitchen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,9 +26,8 @@
 /* Begin PBXFileReference section */
 		F62424A1243BE75100CC888F /* Lab8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab8; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62424A4243BE75100CC888F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F62424B0243BE7BE00CC888F /* PizzaRestaurant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PizzaRestaurant-Prefix.pch"; path = "../../../../Downloads/iOS-Student-PizzaRestaurant-master/PizzaRestaurant/PizzaRestaurant-Prefix.pch"; sourceTree = "<group>"; };
-		F62424B1243BE7C700CC888F /* Kitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Kitchen.m; path = "../../../../Downloads/iOS-Student-PizzaRestaurant-master/PizzaRestaurant/Kitchen.m"; sourceTree = "<group>"; };
-		F62424B3243BE7CF00CC888F /* Kitchen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Kitchen.h; path = "../../../../Downloads/iOS-Student-PizzaRestaurant-master/PizzaRestaurant/Kitchen.h"; sourceTree = "<group>"; };
+		F62424B9243BF13400CC888F /* Kitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
+		F62424BA243BF13400CC888F /* Kitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +60,8 @@
 		F62424A3243BE75100CC888F /* Lab8 */ = {
 			isa = PBXGroup;
 			children = (
-				F62424B3243BE7CF00CC888F /* Kitchen.h */,
-				F62424B1243BE7C700CC888F /* Kitchen.m */,
-				F62424B0243BE7BE00CC888F /* PizzaRestaurant-Prefix.pch */,
+				F62424BA243BF13400CC888F /* Kitchen.h */,
+				F62424B9243BF13400CC888F /* Kitchen.m */,
 				F62424A4243BE75100CC888F /* main.m */,
 			);
 			path = Lab8;
@@ -126,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F62424B2243BE7C700CC888F /* Kitchen.m in Sources */,
+				F62424BB243BF13400CC888F /* Kitchen.m in Sources */,
 				F62424A5243BE75100CC888F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
