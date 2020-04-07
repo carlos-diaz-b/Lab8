@@ -15,6 +15,10 @@ typedef NS_ENUM(NSInteger,size){
     large
 };
 
+typedef NSMutableArray(float,toppings){
+    ham,pinnaple,cheese
+};
+
 @interface Kitchen : NSObject
 
 
