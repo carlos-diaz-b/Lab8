@@ -7,11 +7,19 @@
 //
 #import "Kitchen.h"
 
-@implementation Kitchen
 
-- (Pizza *)makePizzaWithSize:(PizzaSize)size toppings:(NSArray *)toppings
-{
-    return toppings;
+@implementation Kitchen
+    
+- (instancetype)makePizzaWithSize:(NSString*)size toppings:(NSArray *)toppings{
+   self = [super init];
+   if (self) {
+       _size = large;
+       _toppings = toppings;
+   }
+   return self;
 }
+
+
+
 
 @end

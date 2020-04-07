@@ -8,8 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
+
+typedef NS_ENUM(NSInteger,size){
+    small,
+    medium,
+    large
+};
+
 @interface Kitchen : NSObject
 
-- (Pizza *)makePizzaWithSize:(PizzaSize)size toppings:(NSArray *)toppings;
+
+
+@property (nonatomic) enum size ;
+@property (nonatomic) NSArray* toppings;
+
+- (instancetype)makePizzaWithSize:(NSString*)size toppings:(NSArray *)toppings;
+
 
 @end
